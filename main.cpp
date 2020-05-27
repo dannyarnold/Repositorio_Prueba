@@ -5,7 +5,7 @@ using namespace std;
 
 vector<int> Obtener_Primos(int limit)
 {
-    int divisiones = 0;
+    int divisiones;
     vector<int> resultados;
 
     for (int i = 1; i < limit; i++)
@@ -30,6 +30,6 @@ int main()
 {
     for (int primo : Obtener_Primos(100))
     {
-        cout << primo << endl;
+        cout << "Este Nro es primo: " << primo << endl;
     }
 }
